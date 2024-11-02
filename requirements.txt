@@ -1,0 +1,6 @@
+os
+numpy
+lightrag
+lightrag
+lightrag
+PyPDF2
