@@ -48,4 +48,4 @@ text = page.extract_text()
 rag.insert(text)
 
 # Perform hybrid search
-print(rag.query("What are common challenges faced by professional coaches?", param=QueryParam(mode="hybrid")))
+print(rag.query("What were the results of the 2006 Fortune study on coaching?", param=QueryParam(mode="hybrid")))

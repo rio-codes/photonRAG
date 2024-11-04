@@ -9,7 +9,7 @@ from PyPDF2 import PdfReader
 # nest_asyncio.apply()
 #########
 
-WORKING_DIR = "./chadDemo"
+WORKING_DIR = "./openAIDemo"
 
 
 if not os.path.exists(WORKING_DIR):
@@ -28,4 +28,4 @@ text = page.extract_text()
 rag.insert(text)
 
 # Perform hybrid search
-print(rag.query("Can you define the role of a professional coach?", param=QueryParam(mode="hybrid")))
+print(rag.query("What were the results of the 2006 Fortune study on coaching?", param=QueryParam(mode="hybrid")))
